@@ -1,0 +1,12 @@
+# Python specific files/directories
+__pycache__
+venv
+.python-version
+
+# Package specific files
+requirements.txt
+
+# github files
+LICENSE
+README.md
+.gitignore
