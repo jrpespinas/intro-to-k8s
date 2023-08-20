@@ -6,6 +6,9 @@ venv
 # Package specific files
 requirements.txt
 
+# K8 files
+deployments
+
 # github files
 LICENSE
 README.md

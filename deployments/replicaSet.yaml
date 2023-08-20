@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: hello-replica
+  labels:
+    name: hello-replica
+    type: backend
+spec:
+  template:
+    metadata:
+      name: hello
+      labels:
+        name: hello
+        type: backend
+    spec:
+      containers:
+        - name: hello
+          image: jrpespinas/intro-to-k8s:1
+          resources:
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
+          ports:
+            - containerPort: 8000
+  replicas: 3
+  selector:
+    matchLabels:
+      type: backend

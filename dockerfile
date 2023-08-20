@@ -15,7 +15,7 @@ COPY . .
 
 # Expose container port
 # Access the application e.g. localhost:3000
-EXPOSE 3000
+EXPOSE 8000
 
 # Run the backend
 # Expose application port
