@@ -20,4 +20,4 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: jrpespinas/intro-to-k8s:1
+        image: jrpespinas/intro-to-k8s:2
