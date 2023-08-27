@@ -8,6 +8,7 @@ requirements.txt
 
 # K8 files
 deployments
+docker-compose.yaml
 
 # github files
 LICENSE

@@ -24,8 +24,8 @@ spec:
         ports:
         - containerPort: 6379
         volumeMounts:
-        - mountPath: /cache
-          name: cache-volume
+        - mountPath: /data
+          name: data
       volumes:
-      - name: cache-volume
+      - name: data
         emptyDir: {}
