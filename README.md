@@ -1,5 +1,5 @@
 # Introduction to K8s
-This repository serves as an exploration of the basic usage of Kubernetes. It deploys a simple fastapi endpoint which greets the N-th user of the API. The visitor count is incremented using Redis. The whole application consists of two images: the fastapi server and redis. They are deployed in a single node--Control Node in our local kubernetes cluster thanks to Minikube.
+This repository serves as an exploration of the basic usage of Kubernetes. It deploys a simple fastapi endpoint which greets the N-th user of the API. The visitor count is incremented using Redis. The whole application consists of two images: the fastapi server and redis. They are deployed in a single node--Control Node in the local kubernetes cluster thanks to Minikube.
 
 ## Try it out
 Run your own kubernetes deployments locally.
